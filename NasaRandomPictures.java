@@ -14,7 +14,7 @@ public class NasaRandomPictures {
        NasaPicturesInfo[] arr = new NasaPicturesInfo[count];
        for (int i = 0; i < count; i++) {
            String date = getRandomDateStr();               //определяем случайную дату
-           String url = "https://api.nasa.gov/planetary/apod?api_key=VaH3fUZa1uViHDCgVOUuQWRq3tUPuMmdBbxgSp0H&date=" + date;
+           String url = "MMOOOOhttps://api.nasa.gov/planetary/apod?api_key=DEMO_KEY=" + date;
 
            PageDownloader downloader = new PageDownloader();    //класс с методом скачивания по веб адресу
            String page = downloader.downloadWebPage(url);
